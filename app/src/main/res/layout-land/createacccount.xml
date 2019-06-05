@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.acejob.acejob.createaccount"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EDEDED"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+           >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="25dp"
+                android:text="Post jobs for thousands of unemployed people to get employed
+Post your resume and get employed by thousands of Company searching for employee's"
+                android:textSize="20dp"
+
+                android:fontFamily="@font/roboto_light"
+                />
+
+            <LinearLayout
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:paddingLeft="30dp"
+                android:layout_marginLeft="105dp">
+
+                <Button
+                    android:id="@+id/postjob"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundbutton"
+                    android:text="Post Job"
+                    android:textColor="#EEEEEE"
+
+                    android:fontFamily="@font/roboto_light"/>
+
+                <Button
+                    android:id="@+id/postresume"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundbutton"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Post Resumè"
+                    android:textColor="#EEEEEE" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

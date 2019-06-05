@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AceJob</string>
+    <string name="login">Sign In</string>
+    <string name="createpostjob">Post A Job</string>
+    <string name="createpostresume">Post Aour Resumè</string>
+    <string name="createaccount">Create Acejob Account</string>
+    <string name="gettingstarted">Getting Started</string>
+</resources>
+

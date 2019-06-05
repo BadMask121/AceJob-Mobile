@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#EDEDED">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/acelogresize"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edt"
+            android:hint="info@barristerrandycole.info"
+            android:inputType="textWebEmailAddress"
+            android:textAlignment="center"
+             android:textSize="16dp"
+            android:fontFamily="@font/roboto_regular"
+            />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edt"
+            android:inputType="textWebPassword"
+            android:text="123456789"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/signinbutton"
+            android:text="Login"
+            android:textColor="#433C4D"
+          />
+
+        <Button
+            android:id="@+id/createaccount"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:background="@drawable/createbutton"
+            android:text="Create Account"
+            android:textColor="#EEEEEE" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
